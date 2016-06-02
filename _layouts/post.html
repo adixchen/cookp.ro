@@ -21,6 +21,15 @@
 </div><!-- /.entry-header -->
 {% endif %}
 
+{% if page.image.feature_url %}
+<div class="entry-header">
+  {% if page.image.credit %}<div class="image-credit">Image source: {% if page.image.creditlink %}<a href="{{ page.image.creditlink }}">{% endif %}{{ page.image.credit }}{% if page.image.creditlink %}</a>{% endif %}</div><!-- /.image-credit -->{% endif %}
+  <div class="entry-image">
+    <img src="{{ page.image.feature_url }}" alt="{{ page.title }}">
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+{% endif %}
+
 <div id="main" role="main">
   <article class="hentry">
     <header class="header-title">
