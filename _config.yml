@@ -10,15 +10,16 @@ url: http://amacoder.github.io/cookp.ro
 # Owner/author information
 owner:
   name:           Adrian Matei
-  avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
+  avatar:         adrian.png
+  bio:            "Adrian Matei - human being"
   email:          adrianmatei@gmail.com
+
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
   github:         
   stackexchange:  
-  linkedin:       
+  linkedin:    https://www.linkedin.com/in/adrianmatei1983
   instagram:      
   flickr:         
   tumblr:         
